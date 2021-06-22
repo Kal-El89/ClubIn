@@ -1,0 +1,34 @@
+.header-class{
+    background-color: #21212E;
+    padding: 20px 0px;
+    .header-wrapper{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    li{
+        display: inline-block;
+        a{
+            color:#FFFFFF;
+            text-decoration: none;
+            padding: 0px 15px;
+            text-transform: uppercase;
+            font-size: 15px;
+        }
+    }
+    img{
+        height: 120px;
+    }
+    .up-reg{
+        li{
+            padding: 0px 0px 0px 15px;
+            a{
+            border-radius: 5%;
+            font-size: 20px;
+            background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(189,17,250,1) 100%);
+            }
+        }
+        
+    }
+}
+
