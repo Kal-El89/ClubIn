@@ -1,0 +1,33 @@
+
+.home{
+    background-color: #21212E;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    ul{
+    li{
+        padding: 15px 0px;
+        a{
+            background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(189,17,250,1) 100%);
+            padding: 15px;
+            border-radius: 2%;
+            font-size: 20px;
+            color: #FFFFFF;
+            text-decoration: none;
+            box-shadow: 0px 0px 19px 6px rgba(0,0,0,0.40);
+        }
+    }
+    }
+    li:nth-child(1){
+        color: #FFFFFF;
+        font-size: 20px;
+    }
+    li:nth-child(2){
+        color: #46C2FF;
+        font-size: 70px;
+    }
+}
+
+
