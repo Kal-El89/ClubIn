@@ -1,0 +1,59 @@
+.artist-wrapper{
+    width: 360px;
+    height: 280px;
+    background-color: #20202C;
+    border-radius: 1.5%;
+    box-shadow: 0px 0px 19px 6px rgba(0,0,0,0.40);
+        .artist-img{
+            width: 100%;
+        }
+        .location{
+            display: flex;
+            align-items: center;
+            padding: 10px 15px;
+            a{
+                color: #46C2FF;
+                font-size: 15px;
+                text-decoration: none;
+                padding-right: 10px;
+            }  
+            img{
+                height: 30px;
+            }
+        }
+    .artist-description{
+        color: #FFFFFF;
+        padding: 15px;
+        hr{
+            border-color: #BD11FA;
+            width: 60%;
+            margin-right: 240px;
+        }
+        p{
+            width: 310px;
+            font-size: 12px;
+            line-height: 1.5;
+        }
+        h2{
+            font-size: 20px;
+            text-align: left;
+        }
+    }
+    
+}
+
+.artist{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0px;
+}
+.artist_section{
+    background-color: #21212E;
+    padding: 60px 0px;
+    h2{
+        font-size: 35px;
+        color: #46C2FF;
+        text-align: center;
+    }
+}

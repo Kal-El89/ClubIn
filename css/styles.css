@@ -221,3 +221,83 @@ table {
       -ms-flex-direction: column;
           flex-direction: column;
 }
+
+.artist-wrapper {
+  width: 360px;
+  height: 280px;
+  background-color: #20202C;
+  border-radius: 1.5%;
+  -webkit-box-shadow: 0px 0px 19px 6px rgba(0, 0, 0, 0.4);
+          box-shadow: 0px 0px 19px 6px rgba(0, 0, 0, 0.4);
+}
+
+.artist-wrapper .artist-img {
+  width: 100%;
+}
+
+.artist-wrapper .location {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px 15px;
+}
+
+.artist-wrapper .location a {
+  color: #46C2FF;
+  font-size: 15px;
+  text-decoration: none;
+  padding-right: 10px;
+}
+
+.artist-wrapper .location img {
+  height: 30px;
+}
+
+.artist-wrapper .artist-description {
+  color: #FFFFFF;
+  padding: 15px;
+}
+
+.artist-wrapper .artist-description hr {
+  border-color: #BD11FA;
+  width: 60%;
+  margin-right: 240px;
+}
+
+.artist-wrapper .artist-description p {
+  width: 310px;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.artist-wrapper .artist-description h2 {
+  font-size: 20px;
+  text-align: left;
+}
+
+.artist {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 30px 0px;
+}
+
+.artist_section {
+  background-color: #21212E;
+  padding: 60px 0px;
+}
+
+.artist_section h2 {
+  font-size: 35px;
+  color: #46C2FF;
+  text-align: center;
+}
