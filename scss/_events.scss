@@ -6,10 +6,13 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
+.events-picture{
+    width: 500px;
         img{
-        height: 350px;
+        width: 100%;
         box-shadow: 0px 0px 19px 6px rgba(0,0,0,0.40);
         }
+    }
     }
     li{
         color:#FFFFFF;

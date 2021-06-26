@@ -162,8 +162,12 @@ table {
           justify-content: space-between;
 }
 
-.events .events-wrapper img {
-  height: 350px;
+.events .events-wrapper .events-picture {
+  width: 500px;
+}
+
+.events .events-wrapper .events-picture img {
+  width: 100%;
   -webkit-box-shadow: 0px 0px 19px 6px rgba(0, 0, 0, 0.4);
           box-shadow: 0px 0px 19px 6px rgba(0, 0, 0, 0.4);
 }
@@ -263,8 +267,7 @@ table {
 
 .artist-wrapper .artist-description hr {
   border-color: #BD11FA;
-  width: 60%;
-  margin-right: 240px;
+  margin-right: 50%;
 }
 
 .artist-wrapper .artist-description p {
@@ -300,4 +303,89 @@ table {
   font-size: 35px;
   color: #46C2FF;
   text-align: center;
+}
+
+.subscribe-section {
+  background-color: #21212E;
+  padding: 0px 0px 100px 0px;
+}
+
+.subscribe {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #262635;
+  color: white;
+  border-radius: 1.5%;
+  -webkit-box-shadow: 0px 0px 19px 6px rgba(0, 0, 0, 0.4);
+          box-shadow: 0px 0px 19px 6px rgba(0, 0, 0, 0.4);
+}
+
+.subscribe .subscribe-text {
+  padding: 40px 0px 40px 40px;
+}
+
+.subscribe .subscribe-email {
+  padding: 40px 40px 40px 0px;
+}
+
+.about-section {
+  background-color: #21212E;
+  padding: 0px 0px 100px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.about-section .about-wrapper {
+  border-radius: 1.5%;
+  background-color: #20202C;
+  -webkit-box-shadow: 0px 0px 19px 6px rgba(0, 0, 0, 0.4);
+          box-shadow: 0px 0px 19px 6px rgba(0, 0, 0, 0.4);
+}
+
+.about-section .about-wrapper .about {
+  color: #FFFFFF;
+  padding: 40px 40px 40px 40px;
+}
+
+.about-section .about-wrapper .about h2 {
+  font-size: 30px;
+  color: #46C2FF;
+}
+
+.about-section .about-wrapper .about hr {
+  border-color: #BD11FA;
+  margin-right: 50%;
+}
+
+.about-section .about-wrapper .about p {
+  line-height: 1.5;
+  text-align: justify;
+}
+
+.about-section .about-wrapper .apps-logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.about-section .about-wrapper .apps-logo img {
+  width: 120px;
 }
