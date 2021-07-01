@@ -52,6 +52,10 @@ table {
   border-spacing: 0;
 }
 
+html {
+  font-family: 'Poppins', sans-serif;
+}
+
 .container {
   display: block;
   max-width: 1170px;
@@ -92,16 +96,28 @@ table {
   height: 120px;
 }
 
-.header-class .up-reg li {
-  padding: 15px;
+.header-class .up-reg li a {
+  border-radius: 3px;
+  font-size: 15px;
+  background: -webkit-gradient(linear, left top, right top, from(#46C2FF), to(#BD11FA));
+  background: linear-gradient(to right, #46C2FF, #BD11FA);
+  -webkit-filter: drop-shadow(0px 0px 10px #822EFF);
+          filter: drop-shadow(0px 0px 10px #822EFF);
+  padding: 10px 20px;
 }
 
-.header-class .up-reg li a {
-  border-radius: 5%;
-  font-size: 20px;
-  background: -webkit-gradient(linear, left bottom, left top, from(#22c1c3), to(#bd11fa));
-  background: linear-gradient(0deg, #22c1c3 0%, #bd11fa 100%);
-  padding: 15px;
+.header-class .up-reg li a:hover {
+  color: #46C2FF;
+  border: 0.5px solid #46C2FF;
+  background: #21212E;
+  -webkit-filter: drop-shadow(0px 0px 0px);
+          filter: drop-shadow(0px 0px 0px);
+  padding: 10px 19px;
+  border-radius: 3px;
+}
+
+.up-reg li:nth-child(1) {
+  padding-right: 15px;
 }
 
 .home {
@@ -119,30 +135,42 @@ table {
   text-align: center;
 }
 
-.home ul li {
-  padding: 15px 0px;
-}
-
 .home ul li a {
-  background: -webkit-gradient(linear, left bottom, left top, from(#22c1c3), to(#bd11fa));
-  background: linear-gradient(0deg, #22c1c3 0%, #bd11fa 100%);
+  background: -webkit-gradient(linear, left top, right top, from(#46C2FF), to(#BD11FA));
+  background: linear-gradient(to right, #46C2FF, #BD11FA);
   padding: 15px;
-  border-radius: 2%;
+  border-radius: 3px;
   font-size: 20px;
   color: #FFFFFF;
   text-decoration: none;
-  -webkit-box-shadow: 0px 0px 19px 6px rgba(0, 0, 0, 0.4);
-          box-shadow: 0px 0px 19px 6px rgba(0, 0, 0, 0.4);
+  -webkit-filter: drop-shadow(0px 0px 10px #822EFF);
+          filter: drop-shadow(0px 0px 10px #822EFF);
+}
+
+.home ul li a:hover {
+  color: #46C2FF;
+  border: 0.5px solid #46C2FF;
+  background: #21212E;
+  -webkit-filter: drop-shadow(0px 0px 0px);
+          filter: drop-shadow(0px 0px 0px);
+  padding: 14px;
+  border-radius: 3px;
 }
 
 .home li:nth-child(1) {
   color: #FFFFFF;
   font-size: 20px;
+  padding: 0px 0px 30px 0px;
 }
 
 .home li:nth-child(2) {
   color: #46C2FF;
-  font-size: 70px;
+  font-size: 58px;
+  padding: 0px 0px 30px 0px;
+}
+
+.home li:nth-child(3) {
+  padding: 30px 0px 0px 0px;
 }
 
 .events {
@@ -186,16 +214,20 @@ table {
 .events li a {
   font-size: 15px;
   background-color: #BD11FA;
-  padding: 19px 15px 15px 15px;
-  text-align: center;
+  padding: 16px 15px 13px 15px;
   color: #FFFFFF;
   text-decoration: none;
-  border-radius: 2%;
+  border-radius: 3px;
 }
 
 .events li a:hover {
-  background-color: #46C2FF;
-  color: #20202C;
+  color: #46C2FF;
+  border: 0.5px solid #46C2FF;
+  background: #21212E;
+  -webkit-filter: drop-shadow(0px 0px 0px);
+          filter: drop-shadow(0px 0px 0px);
+  padding: 15px 14px 12px 14px;
+  border-radius: 3px;
 }
 
 .date {
@@ -224,6 +256,7 @@ table {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  color: #46C2FF;
 }
 
 .artist-wrapper {
@@ -359,7 +392,7 @@ table {
 
 .about-section .about-wrapper .about {
   color: #FFFFFF;
-  padding: 40px 40px 40px 40px;
+  padding: 40px 40px 20px 40px;
 }
 
 .about-section .about-wrapper .about h2 {
@@ -384,8 +417,92 @@ table {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  padding: 0px 40px 40px 40px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.about-section .about-wrapper .apps-logo .apple {
+  padding-right: 10px;
 }
 
 .about-section .about-wrapper .apps-logo img {
   width: 120px;
+}
+
+.contact-section {
+  background-color: #21212E;
+  padding: 0px 0px 100px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contact-section .contact-wrapper {
+  border-radius: 1.5%;
+  background-color: #20202C;
+  -webkit-box-shadow: 0px 0px 19px 6px rgba(0, 0, 0, 0.4);
+          box-shadow: 0px 0px 19px 6px rgba(0, 0, 0, 0.4);
+}
+
+.contact-section .contact-wrapper .contact {
+  color: #FFFFFF;
+  padding: 40px 40px 20px 40px;
+}
+
+.contact-section .contact-wrapper .contact h2 {
+  font-size: 30px;
+  color: #46C2FF;
+}
+
+.contact-section .contact-wrapper .contact hr {
+  border-color: #BD11FA;
+  margin-right: 50%;
+}
+
+.contact-section .contact-wrapper .contact p {
+  line-height: 1.5;
+  text-align: justify;
+}
+
+.contact-section .contact-wrapper .social-logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0px 40px 40px 40px;
+}
+
+.contact-section .contact-wrapper .social-logo img {
+  width: 120px;
+}
+
+.contact-section .contact-wrapper .social-logo .apps .fb {
+  color: #4267B2;
+  font-size: 30px;
+  padding-right: 10px;
+}
+
+.contact-section .contact-wrapper .social-logo .apps .twitter {
+  color: #1DA1F2;
+  font-size: 30px;
+  padding-right: 10px;
+}
+
+.contact-section .contact-wrapper .social-logo .apps .inst {
+  color: #125688;
+  font-size: 31.5px;
 }

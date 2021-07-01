@@ -25,15 +25,18 @@
         a{
             font-size: 15px;
             background-color: #BD11FA;
-            padding: 19px 15px 15px 15px;
-            text-align: center;
+            padding: 16px 15px 13px 15px;
             color:#FFFFFF;
             text-decoration: none;
-            border-radius: 2%;
+            border-radius: 3px;
         }
         a:hover{
-            background-color:#46C2FF;
-            color: #20202C;
+            color: #46C2FF;
+            border: 0.5px solid #46C2FF;
+            background: #21212E;
+            filter: drop-shadow(0px 0px 0px);
+            padding: 15px 14px 12px 14px;
+            border-radius: 3px;
         }
     }
 }
@@ -57,4 +60,5 @@
 .events-column{
     display: flex;
     flex-direction: column;
+    color: #46C2FF;
 }

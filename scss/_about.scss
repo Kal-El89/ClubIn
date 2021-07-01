@@ -11,7 +11,7 @@
         box-shadow: 0px 0px 19px 6px rgba(0,0,0,0.40);
         .about{
             color: #FFFFFF;
-            padding: 40px 40px 40px 40px;
+            padding: 40px 40px 20px 40px;
             h2{
                 font-size: 30px;
                 color: #46C2FF;
@@ -28,8 +28,11 @@
         .apps-logo{
             display: flex;
             justify-content: space-between;
-
-
+            padding: 0px 40px 40px 40px;
+            align-items: center;
+            .apple{
+                padding-right: 10px;
+            }
 
             img{
                 width: 120px;
